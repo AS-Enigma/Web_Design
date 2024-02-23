@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charaset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <style>
+        body {
+            background-color: #333333;
+            text-decoration: #eaeaea;
+        }
+        #gallery {
+            position: relative;
+        }
+        figure {
+            position: absolute left 280px;
+            text-align: center;
+            opacity: .25;
+        }
+        #gallery span { position: absolute; left: -1000px; opacity: 0;
+            transition: opacity 3s ease-in-out; }
+        #gallery a:hover span { position: absolute; top: 16px; left: 320px;
+            text-align: center; opacity: 1; }
+    </style>
+    <title>Image Gallery</title>
+</head>
+<body>
+    <h1>Image Gallery</h1>
+    <div id="gallery">
+            <li><a href="photo1.jpg"><img src="photo1thumb.png" width="100"
+                height="75" alt="Golden Gate Bridge">
+                <span><img src="photo1.png" width="400" height="300"
+                alt="Golden Gate Bridge"><br>Golden Gate Bridge</span></a>
+            </li>
+            <li><a href="photo2.jpg"><img src="photo2thumb.png" width="100"
+                height="75" alt="Rocky Beach">
+                <span><img src="photo2.png" width="400" height="300"
+                alt="Rocky Beach"><br>Rocky Beach</span></a>
+            </li>
+            <li><a href="photo3.jpg"><img src="photo3thumb.png" width="100"
+                height="75" alt="Mountains">
+                <span><img src="photo3.png" width="400" height="300"
+                alt="Mountains"><br>Mountains</span></a>
+            </li>
+            <li><a href="photo4.jpg"><img src="photo4thumb.png" width="100"
+                height="75" alt="Hidden Beach">
+                <span><img src="photo4.png" width="400" height="300"
+                alt="Hidden Beach"><br>Hidden Beach</span></a>
+            </li>
+            <li><a href="photo5.jpg"><img src="photo5thumb.png" width="100"
+                height="75" alt="Oceanside">
+                <span><img src="photo5.png" width="400" height="300"
+                alt="Oceanside"><br>Oceanside</span></a>
+            </li>
+            <li><a href="photo6.jpg"><img src="photo6thumb.png" width="100"
+                height="75" alt="Mountain sunset">
+                <span><img src="photo6.png" width="400" height="300"
+                alt="Mountain sunset"><br>Mountain sunset</span></a>
+            </li>
+        <figure><img src="photo1.jpg" width="100" height="75" alt="Golden Gate Bridge"</figure>
+    </div>
+</body>
+</html>
